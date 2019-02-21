@@ -4,10 +4,10 @@
     <f:entry field="component" title="Component">
         <f:textbox/>
     </f:entry>
-    <f:entry field="createBaseline" title="Create baseline">
-        <f:checkbox/>
+    <f:entry field="createBaseline">
+        <f:checkbox title="Create baseline"/>
     </f:entry>
-    <f:entry field="newest" title="Use newest">
-        <f:checkbox/>
+    <f:entry field="newest">
+        <f:checkbox title="Use newest"/>
     </f:entry>
 </j:jelly>
