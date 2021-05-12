@@ -24,8 +24,13 @@
         </repository>
         <repository>
             <id>praqma-repo</id>
-            <url>http://code.praqma.net/repo/maven/</url>
+            <url>https://mvnrepository.com/artifact/</url>
         </repository>
+        <repository>
+            <id>localrepository</id>
+            <url>file:///Users/jsoref/.m2/repository/</url>
+        </repository>
+
     </repositories>
 
     <pluginRepositories>
@@ -276,7 +281,7 @@
         <dependency>
             <groupId>net.praqma</groupId>
             <artifactId>praqmajutils</artifactId>
-            <version>0.1.35</version>
+            <version>1.0.0</version>
         </dependency>
         
         <dependency>            
@@ -291,30 +296,30 @@
             <version>1.38</version>
             <optional>true</optional>
         </dependency>
-
+<!--
         <dependency>
             <groupId>net.praqma</groupId>
             <artifactId>praqmajutils</artifactId>
-            <version>0.1.35</version>
+            <version>1.0.0</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
-
+-->
         <dependency>
             <groupId>net.praqma</groupId>
-            <artifactId>cool</artifactId>
-            <version>0.6.49</version>
+            <artifactId>clearcase-ucm-api</artifactId>
+            <version>1.0.1-SNAPSHOT</version>
             <type>jar</type>
         </dependency>
-
+<!--
         <dependency>
             <groupId>net.praqma</groupId>
-            <artifactId>cool</artifactId>
-            <version>0.6.49</version>
+            <artifactId>clearcase-ucm-api</artifactId>
+            <version>1.0.1-SNAPSHOT</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
-        
+-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

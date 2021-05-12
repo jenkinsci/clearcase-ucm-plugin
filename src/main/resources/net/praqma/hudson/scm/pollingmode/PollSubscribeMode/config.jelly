@@ -3,12 +3,12 @@
 
     <st:include page="config.jelly" class="net.praqma.hudson.scm.pollingmode.PollingMode"></st:include>
 
-    <f:entry field="newest" title="Use newest">
-        <f:checkbox/>
+    <f:entry field="newest">
+        <f:checkbox title="Use newest"/>
     </f:entry>
 
-    <f:entry field="cascadePromotion" title="Cascade baseline status change">
-        <f:checkbox checked="${instance.cascadePromotion || instance == null}"/>
+    <f:entry field="cascadePromotion">
+        <f:checkbox title="Cascade baseline status change" checked="${instance.cascadePromotion || instance == null}"/>
     </f:entry>
 
     <f:entry field="component" title="Component">

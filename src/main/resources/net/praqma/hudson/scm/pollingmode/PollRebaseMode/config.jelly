@@ -9,7 +9,7 @@
         </f:expandableTextbox>
     </f:entry>
 
-    <f:entry field="createBaseline" title="Create baseline">
-        <f:checkbox/>
+    <f:entry field="createBaseline">
+        <f:checkbox title="Create baseline"/>
     </f:entry>
 </j:jelly>
